@@ -43,19 +43,6 @@ export const userSlice = createSlice({
         return 0;
       });
     },
-
-    oneUserFetching(state) {
-      state.isLoading = true;
-    },
-    oneUserFetchingSuccsess(state, action: PayloadAction<IUsers>) {
-      state.isLoading = false;
-      state.error = "";
-      state.oneUser = action.payload;
-    },
-    oneUserFetchingError(state, action: PayloadAction<string>) {
-      state.isLoading = false;
-      state.error = action.payload;
-    },
   },
 
   extraReducers: {
