@@ -1,0 +1,33 @@
+.side-bar {
+  width: 152px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 21px;
+  background: #bdbdbd;
+
+  h4 {
+    margin-top: 36px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .button__city {
+    width: 86px;
+  }
+
+  button {
+    cursor: pointer;
+    width: 106px;
+    height: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    background: #4b51ef;
+    border: 0;
+    border-radius: 5px;
+
+    &:hover {
+      background: #4146c3;
+    }
+  }
+}

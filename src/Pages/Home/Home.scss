@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  justify-content: flex-start;
+
+  .content__users {
+    display: flex;
+    justify-content: center;
+    width: 513px;
+
+    .content__users-header {
+      h1 {
+        margin: 0;
+        margin-top: 19px;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 14px;
+      }
+    }
+
+    .content__found-users {
+      text-align: right;
+      font-weight: 400;
+      font-size: 12px;
+      margin-bottom: 25px;
+    }
+  }
+}
